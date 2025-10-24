@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>የኢትዮጵያ በዓላትና አጽዋማት</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>የኢትዮጵያ በዓላትና አጽዋማት</title>
+          <link rel="stylesheet" href="css/style.css" />
+        </head>
+        <body>
+          <div class="container">
+            <h1>የኢትዮጵያ በዓላትና አጽዋማት</h1>
+
+            <div
+              id="message-box"
+              class="message-box hidden"
+              aria-live="polite"
+            ></div>
+
+            <div class="card">
+              <h2>የሚፈልጉትን ዓመተ ምህረት በማስገባት በዓላትን እና አጽዋማትን ይመልከቱ</h2>
+              <div class="form-group">
+                <label for="zemen-id-input">እባክዎ የሚፈልጉትን ዓመተ ምህረት ያስገቡ:</label>
+                <input type="text" id="zemen-id-input" placeholder="ዓመተ ምህረት" />
+              </div>
+              <button id="lookup-btn" class="btn primary-btn">ይመልከቱ</button>
+            </div>
+
+            <div class="card result-card hidden" id="result-card">
+              <h2>የአመቱ በዐላትና አጽዋማት</h2>
+              <h4>ስለ አምስተኝ ፊደል ይቅርታ</h4>
+
+              <p><strong>የገባዉ ዓመት:</strong> <span id="result-block"></span></p>
+              <p><strong>ዓመተ ዓለም:</strong> <span id="result-number"></span></p>
+              <p><strong>መጥነ ራብኢት :</strong> <span id="result-1"></span></p>
+              <p><strong>ወንግላዊ:</strong> <span id="result-2"></span></p>
+              <p><strong>ጥንተ ቀመር:</strong> <span id="result-3"></span></p>
+              <p><strong>መደብ :</strong> <span id="result-4"></span></p>
+              <p><strong>ወንበር :</strong> <span id="result-5"></span></p>
+              <p><strong>መጥቅዕ:</strong> <span id="result-6"></span></p>
+              <p><strong> በዐለ መጥቅዕ:</strong> <span id="result-7"></span></p>
+              <p><strong>አበቀቲ:</strong> <span id="result-8"></span></p>
+              <p><strong>ጥንተ ኦን :</strong> <span id="result-9"></span></p>
+              <p><strong>መስከረም 1:</strong> <span id="result-10"></span></p>
+              <p><strong>መባጃ ሀመር:</strong> <span id="result-11"></span></p>
+              <p><strong>ዖመ ነነዊ:</strong> <span id="result-12"></span></p>
+              <p><strong>ዐቢይ ዖም :</strong> <span id="result-13"></span></p>
+              <p><strong>ደብረ ዘይት:</strong> <span id="result-14"></span></p>
+              <p><strong>ሆሳዕና:</strong> <span id="result-15"></span></p>
+              <p><strong>ስቅለት:</strong> <span id="result-16"></span></p>
+              <p><strong>ትንሳዒ :</strong> <span id="result-17"></span></p>
+              <p><strong>ርክበ ካህናት:</strong> <span id="result-18"></span></p>
+              <p><strong>ዕርገት:</strong> <span id="result-19"></span></p>
+              <p><strong>ጵራቅሊቶስ:</strong> <span id="result-20"></span></p>
+              <p><strong>ዖመ ሀዋርያ :</strong> <span id="result-21"></span></p>
+              <p><strong>ዖመ ድህነት:</strong> <span id="result-22"></span></p>
+              <button id="logout" class="btn primary-btn">ለመመለስ</button>
+            </div>
+            <h2 class="footer">Develop By T.A</h2>
+          </div>
+          <script src="js/script.js"></script>
+        </body>
+      </html>
+
+      <h1>የኢትዮጵያ በዓላትና አጽዋማት</h1>
+
+      <div id="message-box" class="message-box hidden" aria-live="polite"></div>
+
+      <div class="card">
+        <h2>የሚፈልጉትን ዓመተ ምህረት በማስገባት በዓላትን እና አጽዋማትን ይመልከቱ</h2>
+        <div class="form-group">
+          <label for="zemen-id-input">እባክዎ የሚፈልጉትን ዓመተ ምህረት ያስገቡ:</label>
+          <input type="text" id="zemen-id-input" placeholder="ዓመተ ምህረት" />
+        </div>
+        <button id="lookup-btn" class="btn primary-btn">ይመልከቱ</button>
+      </div>
+
+      <div class="card result-card hidden" id="result-card">
+        <h2>የአመቱ በዐላትና አጽዋማት</h2>
+        <h4>ስለ አምስተኝ ፊደል ይቅርታ</h4>
+
+        <p><strong>የገባዉ ዓመት:</strong> <span id="result-block"></span></p>
+        <p><strong>ዓመተ ዓለም:</strong> <span id="result-number"></span></p>
+        <p><strong>መጥነ ራብኢት :</strong> <span id="result-1"></span></p>
+        <p><strong>ወንግላዊ:</strong> <span id="result-2"></span></p>
+        <p><strong>ጥንተ ቀመር:</strong> <span id="result-3"></span></p>
+        <p><strong>መደብ :</strong> <span id="result-4"></span></p>
+        <p><strong>ወንበር :</strong> <span id="result-5"></span></p>
+        <p><strong>መጥቅዕ:</strong> <span id="result-6"></span></p>
+        <p><strong> በዐለ መጥቅዕ:</strong> <span id="result-7"></span></p>
+        <p><strong>አበቀቲ:</strong> <span id="result-8"></span></p>
+        <p><strong>ጥንተ ኦን :</strong> <span id="result-9"></span></p>
+        <p><strong>መስከረም 1:</strong> <span id="result-10"></span></p>
+        <p><strong>መባጃ ሀመር:</strong> <span id="result-11"></span></p>
+        <p><strong>ዖመ ነነዊ:</strong> <span id="result-12"></span></p>
+        <p><strong>ዐቢይ ዖም :</strong> <span id="result-13"></span></p>
+        <p><strong>ደብረ ዘይት:</strong> <span id="result-14"></span></p>
+        <p><strong>ሆሳዕና:</strong> <span id="result-15"></span></p>
+        <p><strong>ስቅለት:</strong> <span id="result-16"></span></p>
+        <p><strong>ትንሳዒ :</strong> <span id="result-17"></span></p>
+        <p><strong>ርክበ ካህናት:</strong> <span id="result-18"></span></p>
+        <p><strong>ዕርገት:</strong> <span id="result-19"></span></p>
+        <p><strong>ጵራቅሊቶስ:</strong> <span id="result-20"></span></p>
+        <p><strong>ዖመ ሀዋርያ :</strong> <span id="result-21"></span></p>
+        <p><strong>ዖመ ድህነት:</strong> <span id="result-22"></span></p>
+        <button id="logout" class="btn primary-btn">ለመመለስ</button>
+      </div>
+      <h2 class="footer">Develop By T.A</h2>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
